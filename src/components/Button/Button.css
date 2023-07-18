@@ -12,6 +12,7 @@
 
 .btn{
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: capitalize;
+    font-family: "BASKE2", sans-serif;
 }
