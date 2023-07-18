@@ -1,0 +1,357 @@
+.principalPage {
+    width: 100%;
+    height: 100%;
+}
+
+.principalPage__header {
+    width: 100%;
+    height: 90px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #000;
+    width: 100%;
+}
+
+.home .gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 20%;
+    z-index: 0;
+    right: 0;
+    bottom: 16%;
+}
+
+.home .dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 20%;
+    z-index: 0;
+    left: -14%;
+    top: 30%;
+}
+
+.home__content{
+    display: flex;
+    width: 50%;
+}
+
+.home__image{
+    position: relative;
+    width: 30%;
+    height: 80%;
+    bottom: 0;
+    top: 10%;
+    background-color: transparent;
+}
+
+.home__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.home h1{
+    font-weight: 700;
+    color: #000;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4%;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+.menu__content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.menu__content__text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+}
+
+.menu__content__image{
+    position: relative;
+    width: 45%;
+    top: 20px;
+    background-color: transparent;
+}
+
+.menu__content__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4%;
+    justify-content: flex-start;
+    background-color: #434343;
+}
+
+.contacts__content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #fff;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4%;
+    background-color: #000;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-container > * {
+    flex: 1 0 33.33%;
+}
+
+.horario__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4%;
+    background-color: #434343;
+}
+
+.contact__content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% 2% 2% 2%;
+}
+
+.contact__content > div {
+    flex: 1 0 33.33%;
+}
+
+.prefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+    background-color: #03254C;
+    align-items: center;
+}
+
+.textdescprefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textdescbutton__title{
+    font-weight: 700;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.textdescbutton__title .title {
+    color: #fff;
+    width: 100%;
+    font-weight: 800;
+}
+
+.textdescbutton__title .subtitle {
+    color: #29ABE2;
+}
+
+.textdescprefooter p{
+    width: 40%;
+    text-align: center;
+}
+
+.footer{
+    background-color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width:940px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        position: static;
+    }
+
+    .home__image{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        right: 0;
+        background-color: transparent;
+    }
+
+    .home__image img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .home__content{
+        display: flex;
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+    }
+    
+    .menu__content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .menu__content__image {
+        width: 100%;
+        background-color: transparent;
+        top: 10px;
+        left: 0;
+    }
+
+    .menu__content__text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4%;
+        justify-content: center;
+        background-color: #F8F8F8;
+    }
+
+    .contacts__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__content {
+        gap: 10px;
+    }
+
+    .prefooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: #03254C;
+        align-items: center;
+    }
+    
+    .textdescprefooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .textdescbutton__title{
+        font-size: 32px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    
+    
+    .textdescprefooter p{
+        width: 80%;
+        text-align: center;
+    }
+
+    .home .gradient{
+        display: none;
+    }
+    
+    .home .dots {
+        display: none;
+    }
+
+    .horario {
+        justify-content: flex-start;
+        padding-top: 10%;
+    }
+
+    section {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .home{
+        padding-bottom: 0%;
+    }
+
+    .horario__content {
+        position: relative;
+        top: 10%;
+    }
+
+
+
+
+}
