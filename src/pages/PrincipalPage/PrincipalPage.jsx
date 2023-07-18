@@ -3,6 +3,7 @@ import "./PrincipalPage.css"
 import NavBar from "../../components/NavBar/NavBar"
 import Footer from "../../components/Footer/Footer"
 import Textdescbutton from "../../components/Textdescbutton/Textdescbutton"
+import Title from "../../components/Title/Title"
 
 const PrincipalPage = () => {
 
@@ -23,14 +24,14 @@ const PrincipalPage = () => {
                     <Textdescbutton title1="MENU" title2="Making The Delicious Food" textbutton="Ver menú" buttoncolor="#B2945B" color="#fff" textcolor="#000" fontsize="4.5rem"/>
                 </div>
             </section>
-            <section id='servicios' className="contacts">
-                <div className='contacts__content'>
-                    <h1>Servicios</h1>
+            <section id='servicios' className="services">
+                <div className='services__content'>
+                    <Title title1="SERVICIOS" title2="First-Class Dining Experience" column color="#fff" fontsize="4.5rem"/>
                 </div>
             </section>
             <section id='ubicaciones' className="location">
                 <div className='location__content logo-container'>
-                    <h1>location</h1>
+                    <Title title1="UBICACIONES" title2="Find Us" column color="#fff" fontsize="4.5rem"/>
                 </div>
             </section>
             <section id='horario' className="horario">
