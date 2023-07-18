@@ -7,55 +7,27 @@
     width: 100%;
     height: 90px;
 }
-.home{
+
+.home {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
     background-color: #000;
-    width: 100%;
+    padding: 60px;
+    justify-content: space-between;
 }
 
-.home .gradient{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    width: 20%;
-    z-index: 0;
-    right: 0;
-    bottom: 16%;
-}
-
-.home .dots {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    width: 20%;
-    z-index: 0;
-    left: -14%;
-    top: 30%;
-}
-
-.home__content{
-    display: flex;
+img.home__img {
     width: 50%;
-}
-
-.home__image{
-    position: relative;
-    width: 30%;
-    height: 80%;
-    bottom: 0;
-    top: 10%;
-    background-color: transparent;
-}
-
-.home__image img{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+
+.home__content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .home h1{
     font-weight: 700;
@@ -63,19 +35,25 @@
 }
 
 .menu{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 4%;
-    justify-content: flex-start;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    justify-content: space-between;
 }
 
 .menu__content{
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+img.menu__img {
+    width: 100%;
     height: 100%;
-    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .menu__content__text{
@@ -118,12 +96,18 @@
 }
 
 .horario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    justify-content: space-between;
+}
+
+.horario__content img{
+    position: relative;
+    width: 45%;
+    top: 20px;
+    background-color: transparent;
 }
 
 .location{
@@ -144,9 +128,10 @@
 }
 
 .horario__content {
-    width: 100%;
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact{
@@ -240,12 +225,12 @@
         object-fit: cover;
     }
 
-    .home__content{
+    .home__content {
         display: flex;
         width: 100%;
-        height: 30%;
         justify-content: center;
         align-items: center;
+        flex-direction: column-reverse;
     }
 
     .menu{
@@ -340,10 +325,6 @@
     section {
         padding-top: 10%;
         padding-bottom: 10%;
-    }
-
-    .home{
-        padding-bottom: 0%;
     }
 
     .horario__content {

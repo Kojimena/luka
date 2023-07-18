@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Link to="horario" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Horarios</Link>
                     </li>
                 </ul>
-                <Button text="Contact us" whatsapp={true} backgroundcolor={"#fff"} colortext={"#000"}/>
+                <Button text="Reservar" whatsapp={true} backgroundcolor={"#fff"} colortext={"#000"}/>
             </nav>
         </div>
     )

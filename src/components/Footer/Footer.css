@@ -19,7 +19,7 @@
 }
 
 .footer-left p{
-    color: #2B2B2B;
+    color: #ffffff;
 }
 
 .footer-right {
@@ -29,8 +29,8 @@
 }
 
 .footer-logo {
-    width: 100px;
-    margin-bottom: 20px;
+    width: 200px;
+    filter: invert(1);
 }
 
 .footer-description {
@@ -53,12 +53,12 @@
 
 .footer-column h4 {
     margin-bottom: 10px;
-    color: #2B2B2B;
+    color: #fefefe;
     font-weight: 800;
 }
 
 .footer-column a{
-    color: #2B2B2B;
+    color: #ffffff;
     text-decoration: none;
 
 }

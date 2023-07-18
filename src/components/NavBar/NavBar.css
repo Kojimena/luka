@@ -63,7 +63,7 @@
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
-        background-color: #03254C;
+        background-color: #000000;
     }
 
     .header .navbar {
