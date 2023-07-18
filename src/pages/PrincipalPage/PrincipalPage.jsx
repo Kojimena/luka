@@ -30,8 +30,12 @@ const PrincipalPage = () => {
                 </div>
             </section>
             <section id='ubicaciones' className="location">
-                <div className='location__content logo-container'>
+                <div className='location__content'>
                     <Title title1="UBICACIONES" title2="Find Us" column color="#fff" fontsize="4.5rem"/>
+                    <div className='location__content__map'>
+                        <img src="/images/location.png" alt="map" className="location__content__map__img"/>
+                        <Title title1="EDIFICIO ZENIT" title2="9a. Avenida 19-61 zona 10" column color="#fff" fontsize="4.5rem"/>
+                    </div>
                 </div>
             </section>
             <section id='horario' className="horario">

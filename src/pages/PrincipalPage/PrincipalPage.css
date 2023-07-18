@@ -121,9 +121,15 @@ img.menu__img {
 .logo-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
-.logo-container > * {
-    flex: 1 0 33.33%;
+
+.location__content__map {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 10%;
 }
 
 .horario__content {
