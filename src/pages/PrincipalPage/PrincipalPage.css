@@ -132,6 +132,13 @@ img.menu__img {
     gap: 10%;
 }
 
+.location__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
 .horario__content {
     display: flex;
     width: 100%;
@@ -144,19 +151,43 @@ img.menu__img {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 4%;
+    padding: 60px;
     background-color: #434343;
 }
 
 .contact__content{
     display: flex;
     flex-wrap: wrap;
-    margin: 10% 2% 2% 2%;
+
 }
 
-.contact__content > div {
-    flex: 1 0 33.33%;
+.contact__content__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "BASKE1", sans-serif;
+    font-weight: 700;
 }
+
+.contact__content__info__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contact__content__info__phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+}
+
 
 .prefooter{
     display: flex;

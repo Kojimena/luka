@@ -2,7 +2,6 @@
     display: flex;
     border-bottom: 3px solid #29ABE2;
     font-weight: 800;
-    font-size: 42px;
 }
 
 .titlecolumn{
@@ -50,22 +49,10 @@
         font-size: 32px !important;
     }
 
-    .titlecolumn .title2{
-        font-size: 32px;
-    }
-
     .titleunderlined{
         font-size: 32px;
         margin-top: 5%;
         margin-bottom: 5%;
-    }
-
-    .titleunderlined .title1{
-        font-size: 32px;
-    }
-
-    .titleunderlined .title2{
-        font-size: 32px;
     }
 
     .titlecolumn{ 

@@ -4,6 +4,7 @@ import NavBar from "../../components/NavBar/NavBar"
 import Footer from "../../components/Footer/Footer"
 import Textdescbutton from "../../components/Textdescbutton/Textdescbutton"
 import Title from "../../components/Title/Title"
+import Contact from "../../components/Contact/Contact"
 
 const PrincipalPage = () => {
 
@@ -34,7 +35,7 @@ const PrincipalPage = () => {
                     <Title title1="UBICACIONES" title2="Find Us" column color="#fff" fontsize="4.5rem"/>
                     <div className='location__content__map'>
                         <img src="/images/location.png" alt="map" className="location__content__map__img"/>
-                        <Title title1="EDIFICIO ZENIT" title2="9a. Avenida 19-61 zona 10" column color="#fff" fontsize="4.5rem"/>
+                        <Title title1="EDIFICIO ZENIT" title2="9a. Avenida 19-61 zona 10" column color="#fff" fontsize="2.5rem"/>
                     </div>
                 </div>
             </section>
@@ -46,7 +47,8 @@ const PrincipalPage = () => {
             </section>
             <section id='contact' className="contact">
                 <div className='contact__content'>
-                    <h1>contact</h1>
+                    <Title title1="CONTACTO" title2="Get In Touch" column color="#fff" fontsize="4.5rem"/>
+                    <Contact />
                 </div>               
             </section>
             <section id='footer' className="footer">
