@@ -132,6 +132,23 @@ img.menu__img {
     gap: 10%;
 }
 
+.location__content__map a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "BASKE1", sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.location__content__map__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
 .location__content {
     display: flex;
     flex-direction: column;
@@ -177,7 +194,7 @@ img.menu__img {
     width: 50%;
     background-color: #000;
     color: #fff;
-    padding: 20px;
+    padding: 40px;
     border-radius: 12px;
 }
 
@@ -241,7 +258,6 @@ img.menu__img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 100%;
         position: static;
     }
 
@@ -274,6 +290,8 @@ img.menu__img {
         flex-direction: column;
         align-items: center;
         background-color: #fff;
+        width: 100%;
+        padding: 0px;
     }
     
     .menu__content{
@@ -300,9 +318,8 @@ img.menu__img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 4%;
-        justify-content: center;
-        background-color: #F8F8F8;
+        padding: 0;
+        width: 100%;
     }
 
     .services__content {
@@ -345,30 +362,52 @@ img.menu__img {
         text-align: center;
     }
 
-    .home .gradient{
-        display: none;
-    }
-    
-    .home .dots {
-        display: none;
-    }
-
     .horario {
         justify-content: flex-start;
         padding-top: 10%;
     }
 
+    .location__content__map {
+        flex-direction: column ;
+    }
+
+    img.location__content__map__img {
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+    }
+
     section {
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
     }
 
     .horario__content {
-        position: relative;
-        top: 10%;
+        flex-direction: column;
     }
 
+    .contact{
+       padding: 0;
+    }
 
+    .contact__content__info__container{
+        width: 100%;
+        gap: 20px;
+    }
+
+    img.menu__img {
+        width: 40%;
+        height: 40%;
+        border-radius: 20px;
+    }
+
+    .contact__content__info__container__title {
+        font-size: 32px;
+    }
+
+    .contact__content__info__container {
+        padding: 0;
+    }
 
 
 }

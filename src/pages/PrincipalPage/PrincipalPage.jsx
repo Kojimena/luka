@@ -32,10 +32,14 @@ const PrincipalPage = () => {
             </section>
             <section id='ubicaciones' className="location">
                 <div className='location__content'>
-                    <Title title1="UBICACIONES" title2="Find Us" column color="#fff" fontsize="4.5rem"/>
                     <div className='location__content__map'>
                         <img src="/images/location.png" alt="map" className="location__content__map__img"/>
-                        <Title title1="EDIFICIO ZENIT" title2="9a. Avenida 19-61 zona 10" column color="#fff" fontsize="2.5rem"/>
+                        <div className='location__content__map__text'>
+                            <Title title1="EDIFICIO ZENIT" title2="9a. Avenida 19-61 zona 10" column color="#fff" fontsize="2.5rem"/>
+                            <a href="https://goo.gl/maps/6Z6Z7Z6Z6Z6Z6Z6Z6" target="_blank" rel="noreferrer" className="location__content__map__link">Encuentranos en Waze
+                                <img src="/images/waze.svg" alt="arrow" className="location__content__map__link__img"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -47,7 +51,6 @@ const PrincipalPage = () => {
             </section>
             <section id='contact' className="contact">
                 <div className='contact__content'>
-                    <Title title1="CONTACTO" title2="Get In Touch" column color="#fff" fontsize="4.5rem"/>
                     <Contact />
                 </div>               
             </section>
