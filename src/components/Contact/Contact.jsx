@@ -7,12 +7,12 @@ const Contact = () => {
     
     return (
         <div className={styles.container}>
-            <div className="contact__content__info__container">
+            <div className={styles.contact__content__info__container}>
                 <h2> A continuación puede ponerse en contacto con Restaurante Luka. </h2>
-                <p className="contact__content__info__p"> Deja tu mensaje y nos pondremos en contacto contigo lo antes posible. También puede comunicarse con nosotros los días hábiles a través del número a continuación. </p>
-                    <div className="contact__content__info__phone">
+                <p className={styles.contact__content__info__p}> Deja tu mensaje y nos pondremos en contacto contigo lo antes posible. También puede comunicarse con nosotros los días hábiles a través del número a continuación. </p>
+                    <div className={styles.contact__content__info__phone}>
                         <img src="/images/phone.svg" alt="contact" className="contact__content__info__img"/>
-                        <h4> +502 2222-2222 </h4>
+                        <a href="tel:+502 1234 5678" className="contact__content__info__link">+502 1234 5678</a>
                     </div>
             </div>
             <div className={styles.contactinfo}>
@@ -29,7 +29,7 @@ const Contact = () => {
                             placeholder="Mensaje"
                             name="message"
                         />
-                        <Button text="Enviar" />
+                        <Button text="Enviar" colortext="#fff"/>
                     </form>
                 </div>
             </div>

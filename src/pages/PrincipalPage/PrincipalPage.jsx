@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer"
 import Textdescbutton from "../../components/Textdescbutton/Textdescbutton"
 import Title from "../../components/Title/Title"
 import Contact from "../../components/Contact/Contact"
+import ImgTextButton from "../../components/ImgTextButton/ImgTextButton"
 
 const PrincipalPage = () => {
 
@@ -28,6 +29,11 @@ const PrincipalPage = () => {
             <section id='servicios' className="services">
                 <div className='services__content'>
                     <Title title1="SERVICIOS" title2="First-Class Dining Experience" column color="#fff" fontsize="4.5rem"/>
+                    <div className='services__content__text'>
+                        <ImgTextButton img="/images/services1.png" title1="" title2="Reservaciones" paragraph="¿De qué tienes antojo hoy? Reserva ahora." textbutton="Reservar" buttoncolor="#B2945B" color="#fff" textcolor="#fff" fontsize="2.5rem"/>
+                        <ImgTextButton img="/images/services2.png" title1="" title2="Delivery" paragraph="Comida exquisita directamente a donde tú estás." textbutton="Ordena ya" buttoncolor="#B2945B" color="#fff" textcolor="#fff" fontsize="2.5rem"/>
+                        <ImgTextButton img="/images/services3.png" title1="" title2="Eventos" paragraph="Experiencias inolvidables con nosotros." textbutton="Cotizar" buttoncolor="#B2945B" color="#fff" textcolor="#fff" fontsize="2.5rem"/>
+                    </div>
                 </div>
             </section>
             <section id='ubicaciones' className="location">

@@ -91,11 +91,18 @@
     }
 
     .footer-logo{
-        display: none;
+        display: flex;
     }
 
     .footer-description{
         display: none;
+    }
+
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
 }

@@ -7,7 +7,7 @@ const TitleComponent = ({ title1, title2, underlined, column, color, paddingrigh
 
     return (
         <div className={underlined ? "titleunderlined" : "titlecolumn"}>
-            <div className="linetittle">
+            <div className={ title1 ? "linetittle" : "nolinetittle"}>
             <div className="line" style={{color}}></div><span className='title1' style={{ color }}>{title1}</span>
             </div>
             <span className='title2' style={style}>{title2}</span>

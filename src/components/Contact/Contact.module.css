@@ -72,6 +72,29 @@
     margin-bottom: 30px;
 }
 
+.contact__content__info__phone a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact__content__info__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.contact__content__info__phone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
