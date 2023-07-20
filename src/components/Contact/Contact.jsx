@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./Contact.module.css"
+import Button from "../Button/Button"
 
 
 const Contact = () => {
@@ -28,7 +29,7 @@ const Contact = () => {
                             placeholder="Mensaje"
                             name="message"
                         />
-                        <button type="submit">Enviar</button>
+                        <Button text="Enviar" />
                     </form>
                 </div>
             </div>

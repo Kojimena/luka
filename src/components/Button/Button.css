@@ -3,16 +3,13 @@
     height: 45px;
     border-radius: 8px;
     border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "BASKE2", sans-serif;
 }
 
 .btn:hover{
     background-color: #1C6EA4;
     cursor: pointer;
-}
-
-.btn{
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    font-family: "BASKE2", sans-serif;
 }
