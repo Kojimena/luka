@@ -56,6 +56,7 @@ const PrincipalPage = () => {
                 </div>
             </section>
             <section id='contact' className="contact">
+                <Title title1="CONTACTO" title2="Get In Touch" column color="#fff" fontsize="4.5rem"/>
                 <div className='contact__content'>
                     <Contact />
                 </div>               
